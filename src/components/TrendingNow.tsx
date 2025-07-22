@@ -6,7 +6,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 const TrendingNow = () => {
   return (
     <div>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center py-4">
         <h1 className="text-2xl font-bold">Trending Now</h1>
         <div className="flex items-center space-x-2">
           <MdArrowBackIos />

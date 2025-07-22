@@ -9,7 +9,7 @@ interface NftPriceProps {
 
 const NftPrice = ({ imageSrc, name, prices }: NftPriceProps) => {
   return (
-    <div className="flex justify-between bg-white shadow p-3 items-center">
+    <div className="flex justify-between bg-white shadow p-2 px-4 items-center">
       <div className="flex items-center space-x-4">
         <img src={imageSrc} className="w-10 h-10 rounded" alt={name} />
         <p>{name}</p>
