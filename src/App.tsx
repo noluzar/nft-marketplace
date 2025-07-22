@@ -1,11 +1,15 @@
 // import React from 'react'
 
-import Navbar from "./components/Navbar"
+// import Carousel from "./components/Carousel"
+// import Navbar from "./components/Navbar"
+import MainLayout from "./layouts/MainLayout"
 
 const App = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
-      <Navbar />
+      {/* <Navbar />
+      <Carousel/> */}
+      <MainLayout />
     </div>
   )
 }
