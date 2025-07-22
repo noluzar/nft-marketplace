@@ -2,6 +2,7 @@
 
 // import Carousel from "./components/Carousel"
 // import Navbar from "./components/Navbar"
+// import CardComponent from "./components/CardComponent"
 import MainLayout from "./layouts/MainLayout"
 
 const App = () => {
@@ -10,6 +11,8 @@ const App = () => {
       {/* <Navbar />
       <Carousel/> */}
       <MainLayout />
+      
+      {/* <CardComponent/> */}
     </div>
   )
 }

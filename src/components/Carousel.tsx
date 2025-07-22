@@ -28,12 +28,11 @@ const Carousel = () => {
   };
 
   return (
-    <div className="p-4">
-      <div className="w-full bg-white p-4 rounded-xl shadow-md">
+      <div className="w-full h-full bg-white p-3 rounded-xl shadow-md">
       <img
         src={goonImages[current]}
         alt={`goon ${current + 1}`}
-        className="w-full h-[70vh] object-cover rounded-lg mb-4"
+        className="w-full h-[40vh] rounded-lg mb-2"
       />
       <div>
         <div className="w-full">
@@ -43,8 +42,8 @@ const Carousel = () => {
               onClick={() => goToImage(idx)}
               style={{
                 display: "inline-block",
-                width: current === idx ? "100px" : "80px",
-                height: "14px",
+                width: current === idx ? "90px" : "90px",
+                height: "10px",
                 borderRadius: "7px",
                 background: current === idx ? "#9c54b5" : "#bbb",
                 margin: "0 8px",
@@ -63,15 +62,13 @@ const Carousel = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
               placeat, eveniet reprehenderit repudiandae debitis, quasi quas
-              autem officia, nostrum vel harum nobis iusto repellendus voluptate
-              sequi perspiciatis hic quidem incidunt.
+              autem officia.
             </p>
           </div>
           button
         </div>
       </div>
     </div>
-     </div>
   );
 };
 

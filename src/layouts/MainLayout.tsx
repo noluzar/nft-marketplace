@@ -1,18 +1,26 @@
 // import React from 'react'
-import Navbar from '../components/Navbar'
-import Carousel from '../components/Carousel'
-import TopTrending from './TopTrending'
+import Navbar from "../components/Navbar";
+import Carousel from "../components/Carousel";
+import TopTrending from "./TopTrending";
+import TrendingNow from "../components/TrendingNow";
 
 const MainLayout = () => {
   return (
     <div>
-        <Navbar/>
-        <div className='flex'>
-        <Carousel/>
-        <TopTrending/>
+      <Navbar />
+      <div className="py-2 px-4 space-y-4">
+         <div className="flex space-x-2">
+        <div className="w-[60%]">
+        <Carousel />
         </div>
+        <TopTrending />
+      </div>
+      <div>
+      <TrendingNow />
+      </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default MainLayout
+export default MainLayout;

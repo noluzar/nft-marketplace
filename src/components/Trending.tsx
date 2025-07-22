@@ -4,7 +4,7 @@ import NftPrice from "./NftPrice";
 
 const Trending = () => {
   return (
-    <div className="pt-4 w-full">
+    <div className="w-full">
       <div className="bg-white p-4 rounded-t-lg shadow-md space-y-4">
         <div className="flex justify-between items-center">
           <div className="flex gap-4 text-xl">
