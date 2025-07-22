@@ -1,6 +1,7 @@
 // import React from 'react'
 import Navbar from '../components/Navbar'
 import Carousel from '../components/Carousel'
+import TopTrending from './TopTrending'
 
 const MainLayout = () => {
   return (
@@ -8,7 +9,7 @@ const MainLayout = () => {
         <Navbar/>
         <div className='flex'>
         <Carousel/>
-        <div></div>
+        <TopTrending/>
         </div>
     </div>
   )
