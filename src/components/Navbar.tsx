@@ -28,11 +28,11 @@ const Navbar = () => {
             <p>zkSync</p>
             <FaAngleDown size={15} />
           </div>
-          <div className="flex items-center space-x-2 text-xl">
-            <TbWorld />
-            <FaRegMoon />
-            <IoCartOutline />
-            <IoWalletOutline />
+          <div className="flex items-center space-x-4 text-xl">
+            <TbWorld className="cursor-pointer hover:text-purple-600" />
+            <FaRegMoon className="cursor-pointer hover:text-purple-600" />
+            <IoCartOutline className="cursor-pointer hover:text-purple-600" />
+            <IoWalletOutline className="cursor-pointer hover:text-purple-600" />
           </div>
         </div>
       </nav>
