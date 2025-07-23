@@ -28,11 +28,11 @@ const Carousel = () => {
   };
 
   return (
-      <div className="w-full h-full bg-white p-3 rounded-xl shadow-md">
+      <div className="w-full h-full bg-white p-3 rounded-lg shadow-md">
       <img
         src={goonImages[current]}
         alt={`goon ${current + 1}`}
-        className="w-full h-[40vh] rounded-lg mb-2"
+        className="w-full h-[35vh] rounded-lg mb-2"
       />
       <div>
         <div className="w-full">
@@ -43,9 +43,9 @@ const Carousel = () => {
               style={{
                 display: "inline-block",
                 width: current === idx ? "90px" : "90px",
-                height: "10px",
+                height: "7px",
                 borderRadius: "7px",
-                background: current === idx ? "#9c54b5" : "#bbb",
+                background: current === idx ? "#6853a8" : "#bbb",
                 margin: "0 8px",
                 cursor: "pointer",
                 transition: "background 0.3s, width 0.3s",
@@ -53,20 +53,24 @@ const Carousel = () => {
             />
           ))}
         </div>
-        <div>
-          <div>
-            <div className="flex items-center gap-2">
+            <div>
+              <div className="flex items-center gap-2 py-2">
               <h2 className="font-bold text-2xl">Zorro Gooners</h2>
-              <MdVerified />
+              <MdVerified className="text-blue-700 text-lg"/>
             </div>
-            <p>
+            </div>
+            <div className="flex items-center space-x-10 text-sm">
+              <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
               placeat, eveniet reprehenderit repudiandae debitis, quasi quas
               autem officia.
             </p>
-          </div>
-          button
-        </div>
+            <div className="w-[40%]">
+              <button className="bg-gradient-to-r from-[#6853a8] to-pink-300 p-2 text-white rounded-md hover:bg-purple-700 transition w-full cursor-pointer">
+                Explore
+              </button> 
+            </div>
+            </div>
       </div>
     </div>
   );

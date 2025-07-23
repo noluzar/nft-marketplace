@@ -6,7 +6,7 @@ const Trending = () => {
     <div className="w-full">
       <div className="bg-white p-4 rounded-t-lg shadow-md space-y-4">
         <div className="flex justify-between items-center">
-          <div className="flex gap-4 text-xl">
+          <div className="flex gap-4 text-xl font-semibold">
             <h2>Top</h2>
             <h2>Trending</h2>
           </div>
@@ -18,7 +18,7 @@ const Trending = () => {
             <a href="#">7d</a>
           </div>
         </div>
-        <div>
+        <div className="text-gray-400">
           <div className="flex justify-between">
             <p>Collections</p>
             <div className="flex space-x-40">
@@ -31,7 +31,7 @@ const Trending = () => {
       <NftPrice
         imageSrc="/pixel.png"
         name="Zk Nakamigos"
-        prices={[0.00001, 0.00001]}
+        prices={[0.00001, 0.11]}
       />
     </div>
   );

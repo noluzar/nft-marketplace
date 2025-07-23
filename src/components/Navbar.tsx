@@ -10,12 +10,12 @@ const Navbar = () => {
     <div>
       <nav className="flex items-center justify-between p-4 bg-white shadow-md rounded-full px-8">
         <div>Logo</div>
-        <div className="flex items-center space-x-10">
+        <div className="flex items-center space-x-10 font-semibold text-sm">
           <a href="#">Marketpace</a>
           <a href="#">Collections</a>
           <a href="#">Earnings</a>
         </div>
-        <div className="flex items-center space-x-2 bg-gray-100 rounded w-100 p-2">
+        <div className="flex items-center space-x-2 bg-gray-100 rounded w-100 p-1 px-2 text-sm">
           <CiSearch />
           <input
             placeholder="Search collections / accounts"

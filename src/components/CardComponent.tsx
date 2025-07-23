@@ -18,11 +18,11 @@ const CardComponent = ({
   volume24h,
 }: CardComponentProps) => {
   return (
-      <div className="w-[350px] bg-white rounded-lg shadow-md p-2 space-y-2">
-        <img src={imageSrc} alt={title} className="w-full rounded-md h-40 object-cover" />
+      <div className="w-[300px] bg-white rounded-lg shadow-md p-2 space-y-2 text-sm cursor-pointer">
+        <img src={imageSrc} alt={title} className="w-full rounded-md h-35 object-cover" />
         <div className="flex items-center space-x-2">
           <h2 className="font-semibold">{title}</h2>
-          {verified && <MdVerified />}
+          {verified && <MdVerified className="text-blue-600" />}
         </div>
         <div>
           <div className="flex justify-between text-gray-600">
@@ -30,13 +30,13 @@ const CardComponent = ({
             <p>24h volume</p>
           </div>
           <div className="flex justify-between items-center">
-            <div className="flex items-center space-x-2">
-              <FaEthereum />
-              <p>{floor}</p>
+            <div className="flex items-center space-x-1">
+              <FaEthereum className="text-gray-700 text-[12px]" />
+              <p className="font-semibold">{floor}</p>
             </div>
-            <div className="flex items-center space-x-2">
-              <FaEthereum />
-              <p>{volume24h}</p>
+            <div className="flex items-center space-x-1">
+              <FaEthereum className="text-gray-700 text-[12px]" />
+              <p className="font-semibold">{volume24h}</p>
             </div>
           </div>
         </div>
