@@ -8,12 +8,12 @@ const MainLayout = () => {
   return (
     <div>
       <Navbar />
-      <div className="py-2 px-10 space-y-4 ">
-         <div className="flex space-x-2">
-        <div className="w-[60%]">
+      <div className="md:py-2 py-15 px-2 md:px-10 space-y-4 ">
+         <div className="flex space-x-2 flex-col md:flex-row">
+        <div className="md:w-[60%] w-full">
         <Carousel />
         </div>
-        <div className="w-full">
+        <div className="w-full py-2 md:py-0">
         <TopTrending />
         </div>
       </div>

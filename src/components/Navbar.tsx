@@ -8,7 +8,7 @@ import { FaAngleDown } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex items-center justify-between p-4 bg-white shadow-md rounded-full px-8">
+      <nav className="flex items-center justify-between md:p-4 p-3 text-sm md:text-md bg-white shadow-md rounded-full px-8 fixed w-full">
         <div>Logo</div>
         <div className="flex items-center space-x-10 font-semibold text-sm">
           <a href="#">Marketpace</a>
