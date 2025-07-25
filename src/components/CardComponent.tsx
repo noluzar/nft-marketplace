@@ -18,7 +18,7 @@ const CardComponent = ({
   volume24h,
 }: CardComponentProps) => {
   return (
-      <div className="w-[300px] bg-white rounded-lg shadow-md p-2 space-y-2 text-sm cursor-pointer">
+      <div className="md:w-[300px] w-full bg-white rounded-lg shadow-md p-2 space-y-2 text-sm cursor-pointer">
         <img src={imageSrc} alt={title} className="w-full rounded-md h-35 object-cover" />
         <div className="flex items-center space-x-2">
           <h2 className="font-semibold">{title}</h2>
