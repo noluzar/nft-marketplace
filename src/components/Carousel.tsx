@@ -35,7 +35,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full h-full bg-white p-3 rounded-lg shadow-md">
+    <div className="w-full h-full bg-white dark:bg-gray-600 p-3 rounded-lg shadow-md">
       <img
         src={goonImages[current]}
         alt={`goon ${current + 1}`}

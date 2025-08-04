@@ -7,7 +7,7 @@ const MainLayout = () => {
   return (
     <div>
       <Navbar />
-      <div className="py-17 px-2 md:px-10 space-y-4 ">
+      <div className="md:py-17 py-13 px-2 md:px-10 space-y-4 ">
          <div className="flex space-x-2 flex-col md:flex-row md:py-2">
         <div className="md:w-[60%] w-full">
         <Carousel />

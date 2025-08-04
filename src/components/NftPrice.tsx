@@ -15,7 +15,7 @@ const NftPrice = ({
   prices,
 }: NftPriceProps) => {
   return (
-    <div className="flex justify-between bg-white shadow p-2 px-4 items-center font-semibold">
+    <div className="flex justify-between bg-white dark:bg-gray-600 shadow p-2 px-4 items-center font-semibold">
       <div className="flex items-center space-x-4">
         <img
           src={imageSrc}

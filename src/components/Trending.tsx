@@ -7,7 +7,7 @@ const Trending = () => {
   const options = ["15m", "1h", "3h", "1d", "7d"]; 
   return (
     <div className="w-full">
-      <div className="bg-white p-4 rounded-t-lg shadow-md space-y-4">
+      <div className="bg-white dark:bg-gray-600 p-4 rounded-t-lg shadow-md space-y-4">
         <div className="flex justify-between items-center">
           <div className="flex gap-4 md:text-xl font-semibold">
             <h2>Top</h2>
