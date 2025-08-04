@@ -33,7 +33,7 @@ const NftPrice = ({
               idx === 0 ? "hidden md:flex" : "flex"
             }`}
           >
-            <FaEthereum className="text-gray-700" />
+            <FaEthereum className="text-gray-700 dark:text-gray-800" />
             <p>{price}</p>
           </div>
         ))}

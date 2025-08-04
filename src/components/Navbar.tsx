@@ -32,8 +32,13 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="flex items-center justify-between p-3 md:p-4 text-sm md:text-md bg-white dark:bg-gray-600 dark:text-white shadow-md rounded-full px-8 fixed w-full z-50">
-        <div>Logo</div>
+      <nav className="flex items-center justify-between p-2 md:p-3 text-sm md:text-md bg-white dark:bg-gray-600 dark:text-white shadow-md rounded-full px-4 md:px-8 fixed w-full z-50">
+        <div className="md:w-10 w-7">
+          <img
+          src="/pink.png"
+          className="w-full object-cover rounded-full"
+          />
+        </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-10 font-semibold text-sm">
@@ -123,14 +128,14 @@ const Navbar = () => {
               </a>
             ))}
           </div>
-          <div className="flex items-center space-x-2 bg-gray-100 dark:bg-gray-700 rounded p-1 px-2 mt-4 text-sm">
+          <div className="hidden md:flex items-center space-x-2 bg-gray-100 dark:bg-gray-700 rounded p-1 px-2 mt-4 text-sm">
             <CiSearch />
             <input
               placeholder="Search collections / accounts"
               className="w-full outline-none bg-transparent dark:text-white"
             />
           </div>
-          <div className="flex flex-col mt-4 space-y-4">
+          <div className="hidden md:flex flex-col mt-4 space-y-4">
             <div className="flex items-center space-x-2 cursor-pointer">
               <img src="/zk.png" className="w-8 h-6 rounded" alt="zkSync" />
               <p>zkSync</p>
